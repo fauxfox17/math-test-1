@@ -4,14 +4,16 @@ module.exports = function(RED) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
-            msg.payload = msg.payload.tomath();
+            msg.payload = msg.payload.math();
             node.send(msg);
         });
     }
     RED.nodes.registerType("math",math);
 }    
-msg.payload = {}
-var x = Number(msg.payload)
+
+msg.payload = {math}
+var numberEntered = "";
+numberEntered =  document.getElementById("msg.payload.math").value; 
 
 module.export = function(MATH)
  {
