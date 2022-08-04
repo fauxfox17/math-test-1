@@ -5,12 +5,10 @@
   "main": "math.js",
   "scripts": {
     "name": "node-red-math",
-    "node-red": {
-      "nodes": {
+    "node-red":
+      "nodes",   
         "math": "math.js"
-      }
-    }
-  },
+      },
   "author": "Steven Bolin",
   "license": "ISC",
   "dependencies": {
